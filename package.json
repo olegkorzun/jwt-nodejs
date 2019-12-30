@@ -1,0 +1,28 @@
+{
+  "name": "jwt-nodejs",
+  "version": "1.0.0",
+  "description": "Node JS with JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "debug": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "jwt",
+    "auth"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0"
+  }
+}
