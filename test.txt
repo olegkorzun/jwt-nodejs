@@ -4,12 +4,12 @@ Then "npm start"
 (NodeJS with npm must be installed before)
 You can see following output:
 
-> jwt-nodejs@1.0.0 start /Users/ww/Desktop/nodejs/jwt
+> jwt-nodejs@1.0.0 start /..your dir../jwt
 > node server.js
 Server is listening on port: 8000
 
-Atder server started:
-On client side run postman ang run two request 1. Login 2. Get access
+After server started:
+On client side run postman and create two requests: 1. Login 2. Get access
 
 1-st request:
 
@@ -28,7 +28,7 @@ Output from first request:
 }
 
 
-2-nd request (copy recieved token from output of POST and put it to Authorization: Bearer):
+2-nd request (copy recieved token from output of POST and put it to Authorization: Bearer without ""):
 
 GET http://localhost:8000
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNTc3NzI5Mzg3LCJleHAiOjE1Nzc4MTU3ODd9.roaieR_XmPl_ijsPoh7aXPt4i_DglYA3pHFsi0QZSmU
@@ -40,3 +40,6 @@ Output from 2-nd request:
     "success": true,
     "message": "Index page"
 }
+
+This is very simple.
+Good luck!
